@@ -10,12 +10,15 @@ When option “6. Get History” is selected from the Acme Financial Menu, all d
 Stocks are a new type of asset to be implemented. They are tracked using a price and the number of units held. All deposits and withdraw transactions will be done with the number of units specified, and it must be a discrete integer. For this iteration of Acme Financial Services application, all stocks deposited and withdrawn will be defaulted to the stock ACME, where the price is always $5 per share. 
  
 5. Account Balance
-When option “5. Check Balance” is selected from the Acme Financial Menu, the application will calculate the account balance as follows: 
-Cash Balance = Total Cash Deposits – Total Cash Withdraws 
+When option “5. Check Balance” is selected from the Acme Financial Menu, the application will calculate the account balance as follows:
+
+Cash Balance = Total Cash Deposits – Total Cash Withdraws
+
 Stock Balance = (Total Stock Deposits – Total Stock Withdraws) * Price
+
 Total Balance = Cash Balance + Stock Balance 
  
-6. Out of Scope
+7. Out of Scope
 •	Implementation of specific stocks other than the default.
 •	Implementation of any transaction type other than cash and stock.
 •	Saving/persistence of data to a file or database. Information is reset when the application is closed. 
